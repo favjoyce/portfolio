@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="cal.css">
+</head>
+
+<body>
+    <div class="input-div">
+        <input type="text" class="in">
+    </div>
+
+    <div class="general-btn">
+        <div class="btn-first-row ">
+            <button onclick="clearInput()">AC</button>
+            <button>+/-</button>
+            <button>%</button>
+            <button class="divide" onclick="div()">÷</button>
+        </div>
+
+        <div class="btn-first-row dark-grey">
+            <button class="div1" onclick="
+                Handleclick(this)">7</button>
+            <button class="div1" onclick="
+                Handleclick(this)">8</button>
+            <button class="div1" onclick="
+                Handleclick(this)">9</button>
+            <button class="divide" onclick="
+                mul()">×</button>
+        </div>
+
+        <div class="btn-first-row dark-grey">
+            <button class="div1" onclick="
+                Handleclick(this)">4</button>
+            <button class="div1" onclick="
+                Handleclick(this)">5</button>
+            <button class="div1" onclick="
+                Handleclick(this)">6</button>
+            <button class="divide" onclick="minus()">-</button>
+        </div>
+
+        <div class="btn-first-row dark-grey">
+            <button class="div1" onclick="
+                Handleclick(this)">1</button>
+            <button class="div2" onclick="
+                Handleclick(this)">2</button>
+            <button class="div3" onclick="
+                Handleclick(this)">3</button>
+            <button class="div4" onclick="plus()">+</button>
+        </div>
+
+        <div class=" dark-grey zero">
+            <button class="zero1" onclick="
+                Handleclick(this)">0</button>
+            <button class="zero2">.</button>
+            <button class="zero3" onclick="equal()">=</button>
+        </div>
+    </div>
+</body>
+<script src="cal.js"></script>
+</html>
