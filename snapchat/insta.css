@@ -1,0 +1,232 @@
+body{
+
+    height: 100vh;
+    width: 100%;
+    background-color: black;
+}
+.general-div{
+    display: flex;
+    gap: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 120px;
+    margin-left: -90px;
+}
+.have a {
+    color: #0095f6;
+    margin-top: -11px;
+    font-size: 11px;
+    text-decoration: none;
+}
+.fb{
+    text-decoration: none;
+    color: white;
+}
+.log{
+    color: #0095f6;
+}
+.first-img{
+    width: 448px;
+    height: 600px;
+}
+.left-video{
+
+}
+.img{
+    display: flex;
+}
+.slides-img{
+    
+}
+.slides-img img {
+    border-radius: 25px;
+    left: 483px;
+    width: 239px;
+    top: 175px;
+    object-fit: cover; /* Ensures images fill the space properly */
+    object-position: center;
+    position: absolute;
+    opacity: 0;
+    animation: fade 12s infinite;
+}
+
+/* Set delays for smooth transitions */
+.slides-img img:nth-child(1) { animation-delay: 0s; }
+.slides-img img:nth-child(2) { animation-delay: 4s; }
+.slides-img img:nth-child(3) { animation-delay: 8s; }
+.slides-img img:nth-child(4) { animation-delay: 4s; }
+
+
+/* Keyframes for fading effect */
+@keyframes fade {
+    0%, 25% { opacity: 1; }  /* Image is fully visible */
+    30%, 100% { opacity: 0; } /* Image fades out */
+}
+.right-input{
+    height: 560px;
+    width: 300px;
+    border: 0.5px solid #555454;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: -60px;
+    
+}
+.input-general{
+    margin-top: -190px;
+    margin: 10px;
+    width: 250px;
+
+}
+.input-general h1{
+    color: white;
+    font-family: lobstar;
+    font-size: 33px;
+    margin-left: 56px;
+}
+.input-general p{
+   
+}
+*{    
+    font-family: "Inter", sans-serif;
+
+}
+.p{
+    color: #a8a8a8;
+    margin-left: 19px;
+    font-size: 15px;
+    margin-top: -10px;
+    text-align: center;
+}
+.input-general button{
+    background-color: #0095f6;
+    font-size: 14px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell,
+     'Open Sans', 'Helvetica Neue', sans-serif;
+     border-radius: 7px;
+     width: 100%;
+     border: none;
+     height: 30px;
+     color: white;
+}
+.line{
+    
+    display: flex;
+    width: 100%;
+    color: #555454;
+    margin-top: 20px;
+}
+.line div{
+    width: 47%;
+    height: 1px;
+    border-bottom: 1.5px solid #555454
+}
+.line p{
+    font-size: 13px;
+    margin-top: -5px;
+    margin-left: 2px;
+    margin-right: 2px;
+}
+.inputs input{
+    width: 90%;
+    height: 10px;
+    border: none;
+    outline: none;
+    border: 1.5px solid #555454;
+    padding: 12px;
+    background-color: #121212;
+    margin-bottom: 7px;
+    color: white;
+    
+}
+.p-div{
+    color:#a8a8a8;
+    font-size: 11px;
+    text-align: center;
+}
+.p-div span{
+    color: white;
+}
+.have{
+    border: 1.5px solid #555454;
+    width: 300px;
+    height: 60px;
+    margin-top: 13px;
+    display: flex;
+    padding-top: 10px;
+    flex-direction: column;
+    align-items: center;
+}
+.have p:nth-child(1){
+    color: white;
+    font-size: 12px;
+}
+.have p:nth-child(2){
+    color: #0095f6;
+    margin-top: -10px;
+    font-size: 14px;
+}
+.get-the-app{
+    color: white;
+    font-size: 13px;
+    text-align: center;
+}
+.two-img{
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+.two-img img:nth-child(2){
+    width: 100px;
+    object-fit: cover;
+    object-position: center;
+}
+.two-img img:nth-child(1){
+    width: 120px;
+    object-fit: cover;
+    object-position: center;
+}
+.nav{
+    margin-top: 50px;
+    text-align: center;
+    color: #a8a8a8;
+    display: flex;
+    gap: 13px;
+    font-size: 10px;
+    width: 200px;
+}
+.nav p{
+    transition: text-decoration 2s;
+}
+.nav p:hover{
+    text-decoration: underline;
+}
+.nav-div{
+    width: 500px;
+    height: 200px;
+    margin-bottom: 20px;
+    align-items: center;
+    margin-left:260px;
+    justify-content: center;
+    transition: text-decoration 4s;
+}
+
+.nav2{
+    text-align:center;
+    color: #a8a8a8;
+    margin-left: 220px;
+    display: flex;
+    gap: 20px
+}
+.nav2 p{
+    font-size: 10px;
+    transition: text-decoration 2s;
+
+}
+.nav2 p:hover{
+    font-size: 10px;
+    text-decoration: underline;
+}

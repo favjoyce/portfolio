@@ -1,0 +1,2236 @@
+body{
+    background: linear-gradient(black   ); /* or any gradient */
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    flex-direction: column;
+
+
+}
+.general{
+    width: 90%;
+    height: 100vh;
+}
+body.light-mode{
+    background: linear-gradient(#f0fff0); /* or any gradient */
+    color: black;
+}
+*{
+    margin: 0;
+    padding: 0;
+    font-weight: 550;
+    font-family: 'Inter', sans-serif;
+
+    
+}
+
+.GeneralDiv{
+}
+.Header{
+  width: 90%;
+    height: 90px;
+    background-color: transparent;
+    display: flex;
+    gap: 20px;
+    position: fixed;
+    z-index: 10000;
+    backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+}
+.underline{
+    width: 53px;
+    height: 3.5px;
+    background-color: aqua;
+    position: absolute;
+    bottom: -10px;
+    opacity: 0;
+}
+.underlin{
+    width: 53px;
+    height: 3.5px;
+    background-color: aqua;
+    position: absolute;
+    bottom: -10px;
+}
+.thacoder{
+    width: 15%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    font-weight: 599;
+    font-size: 17px;
+    color: inherit;
+    /* background: linear-gradient(to left, black 20%, aqua 80%); or any gradient */
+  /* -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent; */
+}
+.navs{
+    width: 59%;
+    height: 100%;
+    /* background-color: pink; */
+    display: flex;
+    align-items: center;
+    gap: 50px;
+}
+.pAndImg{
+    font-size: 19px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    position: relative;
+    transition: all 0.3s ease;
+}
+.home2,.home3,.home4,.home5{
+    font-weight: 500;
+    color: inherit;
+    
+}
+
+.home{
+    color: aqua;
+    /* text-decoration: underline; */
+}
+.drop1{
+    color: aqua;
+}
+.pAndImg:hover .drop{
+   margin-top: px;
+   color: aqua;
+
+
+}
+.pAndImg:hover {
+    color: aqua;
+    margin-top: -5px;
+
+}
+.drop{
+    color: inherit;
+}
+.pAndImg a:hover {
+   color: aqua;
+}
+.pAndImg a:hover .drop{
+  color: aqua;
+} 
+.pAndImg a:hover .drop1{
+  color: aqua;
+} 
+.home2:active .underline{
+  color: aqua;
+  opacity: 1;} 
+
+
+.pAndImg{
+    cursor: pointer;
+}
+.drop{
+
+}
+.showss{
+  display: none;
+}
+.SearchIcon{
+    width: 20%;
+    height: 100%;
+    /* background-color: white; */
+    align-items: center;
+    display: flex;
+    gap: 10px;
+    
+}
+.searchs{
+    color: aqua;
+    font-size: 20px;
+}
+.search{
+    width: 80%;
+    height: 80%;
+    outline: none;
+    border: none;
+    color: inherit;
+    font-size: 17px;
+    background-color: transparent;
+}
+.searchWrap{
+align-items: center;
+    display: flex;
+    gap: 10px;
+    background-color: inherit;
+    height: 30px;
+    border-radius: 30px;
+    padding: 10px;
+    border: 2.8px solid aqua;
+}
+.searchWrap:focus{
+    box-shadow: 0px 1.5px aqua;
+
+}
+.line{
+    width:80px;
+
+}
+.line4{
+    width: 63px;
+}
+.line3{
+    width: 65px;
+   
+}
+.toggleDiv{
+    width: 20%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    /* background-color: aqua; */
+    justify-content: center;
+}
+.dark{
+    background-color: transparent;
+    width: 54%;
+    height: 40px;
+    border: 2.5px solid aqua;
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    justify-content: center;
+    color: inherit;
+    cursor: pointer;
+}
+.darkmode{
+    color: aqua;
+    font-size: 23px;
+}
+.Hero{
+    width: 100%;
+    height: 590px;
+    /* background-color: white; */
+    margin-top: 150px;
+    display: flex;
+}
+.heroLeft{
+    width: 60%;
+    height: 100%;
+    margin-top: 45px;
+    /* background-color: aqua; */
+}
+.heroRight{
+    width: 40%;
+    height: 100%;
+    /* background-color: black; */
+    color: inherit;
+}
+.heroLeft h3{
+    font-size:37px;
+    font-weight: 550;
+    color: inherit;
+    margin-left: 0px;
+}
+.heroLeft h1{
+    font-size: 70px;
+    color: inherit;
+    margin-top: 12px;
+}
+.joyce{
+    color: aqua;
+}
+.iam{
+    color: inherit;
+    /* margin-left: 12px; */
+    font-size: 27px;
+    margin-top: 10px;
+
+}
+.highlight {
+  background: linear-gradient(to right, #00bcd4,aqua);
+  -webkit-background-clip: text;
+  color: transparent;
+  font-weight: bold;
+  font-size: 2rem;
+}
+
+.cursor {
+  display: inline-block;
+  animation: blink 0.7s infinite;
+  color: #00bcd4;
+  font-weight: bold;
+}
+@keyframes blink {
+  0%, 100% { opacity: 1; }
+  50% { opacity: 0; }
+}
+.buttonsIcons{
+    width: 80%;
+    height: 80px;
+    /* background-color: red; */
+    margin-top: 70px;
+    display: flex;
+    gap:20px;
+}
+.buttonsIconss p{
+    color: aqua;
+    /* position: absolute;
+    top: 30px; */
+/* opacity: 0; */
+}
+.buttonsIconss button{
+    position: relative;
+   width: 58px;
+   height: 53px;
+   border-radius: 37px;
+   font-size: 35px;
+   /* border: none; */
+   background-color: transparent;
+   border: 2.5px solid aqua;
+   color: aqua;
+   
+}
+.Tiktok.show {
+    opacity: 1;
+}
+.buttonsIconss{
+   display: flex;
+   /* align-items: center; */
+   justify-content: center;
+   gap: 10px;
+   position: relative;
+   flex-direction: column;
+   /* background-color: aqua; */
+   width: 80px;
+   height: 85px;
+   
+
+}
+.buttonsIcons a{
+    text-decoration: none;
+    color: aqua;
+}
+.Tiktok {
+  opacity: 0;
+  transition: 0.3s ease;
+  position: absolute;
+  bottom: -10px;
+  left: 5px;
+}
+
+/* Target .Tiktok when hovering over the entire .buttonsIconss */
+.buttonsIconss:hover .Tiktok {
+  opacity: 1;
+}
+#sideMenu{
+
+}
+.hamburger,
+.side-menu {
+  display: none;
+}
+.gifBox {
+  width: 420px;
+  height: 440px;
+  background-color: #111;
+  color: aqua;
+  padding: 20px;
+  border-radius: 12px;
+  text-align: center;
+  box-shadow: 0 0 15px rgba(0,255,255,0.2);
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  gap: 10px;
+}
+
+.gifBox img {
+  width: 100%;
+  height: 220px;
+  object-fit: cover;
+  border-radius: 10px;
+  box-shadow: 0 0 5px aqua;
+  transition: 0.3s ease;
+}
+
+.gifBox button {
+  background-color: transparent;
+  border: 2px solid aqua;
+  color: aqua;
+  padding: 8px 14px;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: 0.3s ease;
+  font-size: 22px;
+}
+
+.gifBox button:hover {
+  background-color: aqua;
+  color: black;
+}
+.aboutMe{
+    width: 100%;
+    /* height: 599px; */
+    /* background-color: blue; */
+}
+.aboutMeText h1{
+    font-size: 34px;
+    font-weight:620;
+    color: inherit;
+}
+.aboutMeText h3{
+    font-size:24px ;
+    margin-left: 130px;
+    color: aqua;
+    margin-top: 20px;
+}
+.techSkills{
+    display: grid;
+    align-items: center;
+    /* background-color: #00bcd4; */
+    justify-content: center;
+    /* margin-left: 90px; */
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 10px;
+    margin-top: 50px;
+    width: 100%;
+    height: 100%;
+    gap: 50px;
+}
+.flip-card {
+    border-radius: 50%;
+      background-color: black;
+      width: 300px;
+      height: 300px;
+      perspective: 1000px;
+    }
+
+    .flip-card-inner {
+      position: relative;
+      width: 100%;
+      height: 100%;
+      text-align: center;
+      transition: transform 0.8s;
+      transform-style: preserve-3d;
+    }
+
+    .flip-card:hover .flip-card-inner {
+      transform: rotateY(180deg);
+    }
+
+    .flip-card-front,
+    .flip-card-back {
+      position: absolute;
+      width: 100%;
+      height: 100%;
+      backface-visibility: hidden;
+      border-radius: 12px;
+      box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+          border-radius: 145px;
+
+    }
+
+    .flip-card-front {
+      background: transparent;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      flex-direction: column;
+      gap: 20px;
+      /* border: 2.5px solid aqua; */
+      color: white;
+    }
+    .html{
+        font-size: 29px;
+        margin-top: 20px;
+        /* background-color: white; */
+    }
+    .flip-card-front img {
+      width: 100px;
+      height: 100px;
+    }
+
+    .flip-card-back {
+      background-color: transparent;
+      /* border: 2.5px solid aqua; */
+      transform: rotateY(180deg);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 1rem;
+      padding: 10px;
+    }
+    .flip-card-back img{
+        width: 100%;
+        height: 100%;
+        border-radius: 50%;
+    }
+    /* .typewriter {
+  overflow: hidden;
+  border-right: 2px solid #38bdf8;
+  white-space: nowrap;
+  animation: typing 4s steps(30, end), blink 0.75s step-end infinite;
+  width: 0;
+}
+
+.typewriter.delay {
+  animation: typing 4s steps(30, end) 4.2s forwards, blink 0.75s step-end infinite 4.2s;
+} */
+
+@keyframes typing {
+  from { width: 0 }
+  to { width: 100% }
+}
+
+@keyframes blink {
+  50% { border-color: transparent }
+}
+.typing{
+    color: #00bcd4;
+    line-height: 50px;
+}
+.back-text{
+  color: aqua;
+  font-size: 15px;
+  line-height: 27px;
+  text-align: start;
+  /* background-color: #00bcd4; */
+  width: 85%;
+  height: 59%;
+}
+.back-text span{
+  color: aqua;
+  font-weight: 580;
+}
+.progress-container{
+  margin-bottom: 20px;
+}
+.progress-bar {
+  width: 100%;
+  height: 12px;
+  background-color: #333;
+  border-radius: 6px;
+  overflow: hidden;
+  position: relative;
+}
+
+/* INITIAL: Fill is 0 width */
+.progress-fill {
+  width: 0%;
+  height: 100%;
+  background: linear-gradient(to right, #00c3ff, #00ffa2);
+  border-radius: 6px;
+  animation: none;
+}
+
+.flip-card.html:hover .html-fill {
+  animation: fillBarHTML 1.2s forwards ease-in-out;
+}
+@keyframes fillBarHTML {
+  0% { width: 0%; }
+  100% { width: 95%; }
+}
+.flip-card.css:hover .css-fill {
+  animation: fillBarCss 1.2s forwards ease-in-out;
+}
+@keyframes fillBarCss {
+  0% { width: 0%; }
+  100% { width: 85%; }
+}
+
+.flip-card.js:hover .js-fill {
+  animation: fillBarJS 1.2s forwards ease-in-out;
+}
+@keyframes fillBarJS {
+  0% { width: 0%; }
+  100% { width: 79%; }
+}
+
+.flip-card.java:hover .java-fill {
+  animation: fillBarJava 1.2s forwards ease-in-out;
+}
+@keyframes fillBarJava {
+  0% { width: 0%; }
+  100% { width: 82%; }
+}
+
+.flip-card.mongodb:hover .mongodb-fill {
+  animation: fillBarmongo 1.2s forwards ease-in-out;
+}
+@keyframes fillBarmongo {
+  0% { width: 0%; }
+  100% { width: 95%; }
+}
+
+
+.flip-card.spring:hover .spring-fill {
+  animation: fillBarspring 1.2s forwards ease-in-out;
+}
+@keyframes fillBarspring {
+  0% { width: 0%; }
+  100% { width: 59%; }
+}
+
+
+.flip-card.sql:hover .sql-fill {
+  animation: fillBarsql 1.2s forwards ease-in-out;
+}
+@keyframes fillBarsql {
+  0% { width: 0%; }
+  100% { width: 90%; }
+}
+
+
+.flip-card.nodejs:hover .nodejs-fill {
+  animation: fillBarnode 1.2s forwards ease-in-out;
+}
+@keyframes fillBarnode {
+  0% { width: 0%; }
+  100% { width: 59%; }
+}
+
+
+.flip-card.react:hover .react-fill {
+  animation: fillBarreact 1.2s forwards ease-in-out;
+}
+@keyframes fillBarreact {
+  0% { width: 0%; }
+  100% { width: 77%; }
+}
+
+.flip-card.reactnative:hover .reactnative-fill {
+  animation: fillBarreatcn 1.2s forwards ease-in-out;
+}
+@keyframes fillBarreactn {
+  0% { width: 0%; }
+  /* 100% { width:49%; } */
+}
+.about-me{
+  color: inherit;
+  margin-bottom: 25px;
+}
+.about-me p{
+  font-size: 23px;
+  margin-top: 15px;
+  line-height: 35px;
+}
+.about-me p strong{
+  color: aqua;
+  font-size: 28px;
+}
+.about-me h2{
+  color: aqua;
+  text-decoration: underline;
+  font-size: 32px;
+}
+.galleryPort{
+  width: 100%;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  /* background-color: #00ffa2; */
+  row-gap: 59px;
+}
+.gpGeneral{
+  width: 100%;
+  margin-top: 120px;
+}
+.project1{
+  width: 90%;
+  height: 500px;
+  background-color: black;
+  border: 2.5px solid aqua;
+  border-top-left-radius: 80px;
+  border-bottom-right-radius: 80px;
+  overflow: hidden;
+}
+.img{
+  width: 100%;
+  height: 70%;
+  /* background-color: #00c3ff; */
+  transition: all 0.4s ease-in-out;
+  position: relative;
+}
+
+.img img,.img video{
+  width: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  object-fit: cover;
+  object-position: center;
+    transition: all 0.4s ease-in-out;
+
+}
+.img img{
+  opacity: 0;
+}
+.img video{
+  opacity: 1;
+}
+.img:hover video{
+  opacity: 0;
+}
+.img:hover img{
+  opacity: 1;
+}
+.img:hover img{
+  transform: scale(1.08);
+  cursor: pointer;
+}
+.gpText h1{
+  color: inherit;
+  font-size: 29px;
+  font-weight: 729;
+}
+.gpText{
+  margin-bottom: 50px;
+}
+.cloned{
+  font-weight: 800;
+}
+.thacGallery{
+  font-weight: 850;
+  margin-bottom: 50px;
+  color: aqua;
+  font-size: 45px;
+}
+.aboutProject{
+  /* background-color: #00ffa2; */
+  width: 100%;
+  height: 30%;
+}
+.aboutProject h2{
+   color: inherit;
+   margin-left: 20px;
+   font-weight: 570;
+   margin-top: 30px;
+   font-size: 23px;
+}
+.languaages{
+  margin-left: 40px;
+  /* background-color: #00c3ff; */
+  color: aqua;
+  margin-top: 15px;
+}
+.languaages img{
+  width: 30px;
+}
+.list{
+display: flex;
+gap: 10px;
+color: aqua;
+margin-top: 10px;
+align-items: center;
+}
+.lists{
+  display: flex;
+  gap: 10px;
+  align-items: center;
+}
+.viewUtiv{
+  text-decoration: none;
+}
+
+.vU:hover{
+    color:rgb(112, 230, 230);
+    text-decoration: underline;
+
+}
+.kindly{
+  color: inherit;
+  margin-left: 23px;
+  font-size: 15px;
+}
+.heretoView{
+  color: aqua;
+  text-decoration: none;
+  cursor: pointer;
+}
+.findme{
+  color: inherit;
+  margin-top: 70px;
+  font-size: 15px;
+  color: #00c3ff;
+  text-decoration: underline;
+}
+.buttonsIcons{
+  margin-top: 0;
+}
+html {
+  scroll-behavior: smooth;
+}
+.pAndImg a{
+  text-decoration: none;
+}
+.Contact_me{
+  width: 100%;
+  background-color: #00ffa2;
+  margin-top: 140px;
+}
+:root {
+  --black: #0a0a0a;
+  --aqua: #00fff7;
+  --white: #fefefe;
+  --gray: #aaa;
+  --bright-text: #e0ffff;
+}
+
+.hire-me-section {
+  background: var(--black);
+  color: var(--bright-text);
+  padding: 4rem 2rem;
+  text-align: center;
+  font-family: 'Segoe UI', sans-serif;
+}
+
+.hire-me-section h2 {
+  font-size: 2.5rem;
+  color: var(--aqua);
+  margin-bottom: 0.5rem;
+}
+
+.hire-me-section p {
+  font-size: 1.1rem;
+  color: var(--gray);
+  margin-bottom: 2.5rem;
+}
+
+.contact-form {
+  max-width: 600px;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  gap: 1.2rem;
+}
+
+.contact-form input,
+.contact-form textarea {
+  background: #111;
+  border: 1px solid #222;
+  border-radius: 10px;
+  padding: 1rem;
+  color: var(--white);
+  font-size: 1rem;
+  transition: all 0.3s ease;
+}
+
+.contact-form input:focus,
+.contact-form textarea:focus {
+  border-color: var(--aqua);
+  outline: none;
+  box-shadow: 0 0 10px var(--aqua);
+}
+
+.contact-form button {
+  background: var(--aqua);
+  color: #000;
+  font-weight: bold;
+  border: none;
+  padding: 1rem;
+  font-size: 1rem;
+  border-radius: 50px;
+  cursor: pointer;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.5rem;
+  transition: all 0.3s ease;
+}
+
+.contact-form button:hover {
+  background: #00d1cc;
+  transform: scale(1.05);
+}
+
+.emoji {
+  animation: float 2s ease-in-out infinite;
+}
+
+@keyframes float {
+  0% { transform: translateY(0); }
+  50% { transform: translateY(-4px); }
+  100% { transform: translateY(0); }
+}
+
+#msg {
+  margin-top: 1rem;
+  font-size: 1rem;
+  color: #0f0;
+  opacity: 0;
+  transform: translateY(10px);
+  transition: all 0.4s ease;
+}
+
+#msg.visible {
+  opacity: 1;
+  transform: translateY(0);
+}
+.divider {
+  margin: 2rem 0 1rem;
+  font-size: 1rem;
+  color: #00fff7;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  position: relative;
+}
+
+.divider::before,
+.divider::after {
+  content: "";
+  position: absolute;
+  top: 50%;
+  width: 60px;
+  height: 1px;
+  background-color: #00fff7;
+}
+
+.divider::before {
+  right: 100%;
+  margin-right: 10px;
+}
+
+.divider::after {
+  left: 100%;
+  margin-left: 10px;
+}
+
+.direct-contact p {
+  margin: 0.3rem 0;
+  color: inherit;
+  font-size: 1rem;
+}
+
+.direct-contact{
+  font-size: 23px;
+  margin-bottom: 10px;
+  /* text-decoration: underline; */
+}
+
+/* Default desktop styling assumed to already exist above this */
+.show{
+  display: none;
+}
+/* ========== TABLETS ========== */
+@media (max-width: 1024px) {
+   .hamburger {
+    display: inline-block;
+    font-size: 30px;
+    color: aqua;
+    cursor: pointer;
+    padding: 10px;
+    z-index: 1100;
+  }
+
+  .side-menu {
+    display: block;
+  }
+  .html{
+        margin-top: 0;
+        /* background-color: white; */
+    }
+  header {
+    padding: 1rem;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  nav ul {
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  .gallery {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 1rem;
+    padding: 1rem;
+  }
+
+  .video-container {
+    width: 100%;
+    height: auto;
+  }
+
+  .contact-section {
+    padding: 2rem;
+    font-size: 1rem;
+  }
+}
+
+
+
+
+.navsshow{
+  display: none;
+}
+@media screen and (min-width:414px) and (max-width:800px){
+   #about{
+    margin-top: 25px;
+  }
+#homer{
+  margin-left: 59px;
+  font-size: 25px;
+  margin-top: 20px;
+}
+ .hamburger {
+    display: inline-block;
+    font-size: 30px;
+    color: aqua;
+    cursor: pointer;
+    padding: 10px;
+    z-index: 1100;
+  }
+
+  .side-menu {
+    display: block;
+  }
+  #sc{
+    display: none;
+    width: 110px;
+    border-radius: 10px;
+    margin-top: 10px;
+    height: 20px;
+  }
+  #tog{
+    display: flex;
+    /* margin-left: 5px; */
+    width: 100px;
+    height: 100px;
+    /* bottom: 10px; */
+    position: absolute;
+    right: 0px;
+  }
+  #WithAqua{
+    display:  none;
+  }
+  .hamburger {
+  font-size: 2.5rem;
+  color: aqua;
+  cursor: pointer;
+  position: fixed;
+  top: 15px;
+  left: 0px;
+  z-index: 1001;
+}
+#hom{
+  font-size: 22px;
+}
+.seeh{
+  font-size: 35px;
+}
+#hams{
+  font-size: 49px;
+}
+/* Side Menu Panel */
+.side-menu {
+  position: fixed;
+  top: 0;
+  left: -100%;
+  height: 100vh;
+  width: 260px;
+  background-color: #0a0a0a;
+  color: white;
+  padding: 2rem 1.5rem;
+  box-shadow: 2px 0 10px rgba(0, 255, 255, 0.2);
+  transition: left 0.4s ease;
+  z-index: 1000;
+}
+
+.side-menu.active {
+  left: 0;
+}
+
+/* Close Button */
+.close-btn {
+  font-size: 2rem;
+  color: aqua;
+  cursor: pointer;
+  text-align: right;
+  display: block;
+  margin-bottom: 1rem;
+}
+
+/* Navigation item containers */
+.pAndImg {
+  display: flex;
+  align-items: center;
+  gap: 0.7rem;
+  margin-bottom: 1.5rem;
+  padding: 0.5rem;
+  border-radius: 8px;
+  transition: background 0.3s;
+}
+
+.pAndImg:hover {
+  background-color: rgba(0, 255, 255, 0.1);
+}
+
+/* Icons inside menu */
+.seer {
+  font-size: 25px;
+  color: aqua;
+}
+
+/* Text labels */
+.see {
+  font-size: 1rem;
+  color: white;
+  font-weight: bold;
+  letter-spacing: 1px;
+}
+
+/* Underlines */
+.underline,
+.line3,
+.line {
+  width: 100%;
+  height: 2px;
+  background-color: aqua;
+  margin-top: 0px;
+  opacity: 0.2;
+  transition: opacity 0.3s;
+}
+
+.pAndImg:hover .underline {
+  opacity: 1;
+}
+  .flip-card-back p{
+   display: none;
+  }
+  .navsshow{
+    display: flex;
+    /* background-color: #00bcd4; */
+    gap: 50px;
+    margin-left: 0px;
+  }
+  .navs{
+    display: none;
+  }
+  .thacoder {
+    display: none;
+  }
+  .pAndImg span{
+    font-size: 45px;
+  }
+  .seer:hover .see{
+    opacity: 1;
+  }
+ 
+  .Header{
+    align-items: center;
+  }
+  .navsshow{
+    margin-left: 200px;
+  } 
+  .pAndImg p{
+    font-size: 15px;
+    color: aqua;
+    position: absolute;
+    bottom: -17px;
+    opacity: 1;    
+  }
+  .heroRight{
+    display: none;
+  }
+  .heroLeft{
+    width: 100%;
+  }
+  .heroLeft h1{
+   font-size: 43px;
+  }
+  .about-me p{
+    font-size: 22px;
+  }
+  .buttonsIcons{
+  }
+  .buttonsIconss{
+    width: 100%;
+  }
+  .about-me{
+    margin-top: -150px;
+  }
+  .flip-card{
+    width: 120px;
+    height:120px
+  }
+  .flip-card-front img{
+   width: 45px;
+   margin-bottom: -29px;
+  }
+  .flip-card-front h3{
+     font-size: 15px;
+     /* margin-top: 45px; */
+  }
+  .flip-card-inner{
+    grid-template-columns: 1fr 1fr;
+    display: grid;
+  }
+  .galleryPort{
+    display:grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+  }
+  .project1{
+    width: 190px;
+    height: 250px;
+    border-radius:0 ;
+  }
+  .aboutProject h2{
+    font-size: 17px;
+  }
+  .aboutProject{
+    /* background-color: red; */
+    margin-top: -33px;
+  }
+  .languaages{
+    margin-top:-5px;
+    /* background-color: red; */
+    margin-left:5px;
+  }
+  .Hero{
+    /* margin-top: 0px; */
+  }
+  .lists{
+
+  }
+  .lists img{
+    width:20px;
+
+
+  }
+  .lists p{
+    font-size:15px;
+  }
+  .html{
+        margin-top: 0;
+        /* background-color: white; */
+    }
+}
+@media screen and (min-width: 375px) and (max-width: 415px) {
+   .hamburger {
+    display: inline-block;
+    font-size: 30px;
+    color: aqua;
+    cursor: pointer;
+    padding: 10px;
+    z-index: 1100;
+  }
+
+  .side-menu {
+    display: block;
+  }
+  #about{
+    margin-top: 25px;
+  }
+#homer{
+  margin-left: 59px;
+  font-size: 25px;
+  margin-top: 20px;
+}
+  #sc{
+    display: none;
+    width: 110px;
+    border-radius: 10px;
+    margin-top: 10px;
+    height: 20px;
+  }
+  #tog{
+    display: flex;
+    margin-left: 10px;
+    width: 100px;
+    height: 100px;
+    /* bottom: 10px; */
+    position: absolute;
+    /* right: 0px; */
+  }
+  #WithAqua{
+    display:  none;
+  }
+  .hamburger {
+  font-size: 2.5rem;
+  color: aqua;
+  cursor: pointer;
+  position: fixed;
+  top: 15px;
+  left: 0px;
+  z-index: 1001;
+}
+#hom{
+  font-size: 22px;
+}
+.seeh{
+  font-size: 35px;
+}
+#hams{
+  font-size: 49px;
+}
+/* Side Menu Panel */
+.side-menu {
+  position: fixed;
+  top: 0;
+  left: -100%;
+  height: 100vh;
+  width: 260px;
+  background-color: #0a0a0a;
+  color: white;
+  padding: 2rem 1.5rem;
+  box-shadow: 2px 0 10px rgba(0, 255, 255, 0.2);
+  transition: left 0.4s ease;
+  z-index: 1000;
+}
+
+.side-menu.active {
+  left: 0;
+}
+
+/* Close Button */
+.close-btn {
+  font-size: 2rem;
+  color: aqua;
+  cursor: pointer;
+  text-align: right;
+  display: block;
+  margin-bottom: 1rem;
+}
+
+/* Navigation item containers */
+.pAndImg {
+  display: flex;
+  align-items: center;
+  gap: 0.7rem;
+  margin-bottom: 1.5rem;
+  padding: 0.5rem;
+  border-radius: 8px;
+  transition: background 0.3s;
+}
+
+.pAndImg:hover {
+  background-color: rgba(0, 255, 255, 0.1);
+}
+
+/* Icons inside menu */
+.seer {
+  font-size: 25px;
+  color: aqua;
+}
+
+/* Text labels */
+.see {
+  font-size: 1rem;
+  color: white;
+  font-weight: bold;
+  letter-spacing: 1px;
+}
+
+/* Underlines */
+.underline,
+.line3,
+.line {
+  width: 100%;
+  height: 2px;
+  background-color: aqua;
+  margin-top: 0px;
+  opacity: 0.2;
+  transition: opacity 0.3s;
+}
+
+.pAndImg:hover .underline {
+  opacity: 1;
+}
+  .flip-card-back p{
+   display: none;
+  }
+  .navsshow{
+    display: flex;
+    /* background-color: #00bcd4; */
+    gap: 50px;
+    margin-left: 0px;
+  }
+  .navs{
+    display: none;
+  }
+  .thacoder {
+    display: none;
+  }
+  .pAndImg span{
+    font-size: 45px;
+  }
+  .seer:hover .see{
+    opacity: 1;
+  }
+ 
+  .Header{
+    align-items: center;
+  }
+  .navsshow{
+    margin-left: 200px;
+  } 
+  .pAndImg p{
+    font-size: 15px;
+    color: aqua;
+    position: absolute;
+    bottom: -17px;
+    opacity: 1;    
+  }
+  .heroRight{
+    display: none;
+  }
+  .heroLeft{
+    width: 100%;
+  }
+  .heroLeft h1{
+   font-size: 43px;
+  }
+  .about-me p{
+    font-size: 22px;
+  }
+  .buttonsIcons{
+  }
+  .buttonsIconss{
+    width: 100%;
+  }
+  .about-me{
+    margin-top: -150px;
+  }
+  .flip-card{
+    width: 120px;
+    height:120px
+  }
+  .flip-card-front img{
+   width: 45px;
+   margin-bottom: -29px;
+  }
+  .flip-card-front h3{
+     font-size: 15px;
+     /* margin-top: 45px; */
+  }
+  .flip-card-inner{
+    grid-template-columns: 1fr 1fr;
+    display: grid;
+  }
+  .galleryPort{
+    display:grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+  }
+  .project1{
+    width: 190px;
+    height: 250px;
+    border-radius:0 ;
+  }
+  .aboutProject h2{
+    font-size: 17px;
+  }
+  .aboutProject{
+    /* background-color: red; */
+    margin-top: -33px;
+  }
+  .languaages{
+    margin-top:-5px;
+    /* background-color: red; */
+    margin-left:5px;
+  }
+  .Hero{
+    /* margin-top: 0px; */
+  }
+  .lists{
+
+  }
+  .lists img{
+    width:20px;
+
+
+  }
+  .lists p{
+    font-size:15px;
+  }
+  .html{
+        margin-top: 0;
+        /* background-color: white; */
+    }
+}
+
+@media screen and (min-width: 360px) and (max-width: 885px) {
+   .hamburger {
+    display: inline-block;
+    font-size: 30px;
+    color: aqua;
+    cursor: pointer;
+    padding: 10px;
+    z-index: 1100;
+  }
+
+  .side-menu {
+    display: block;
+  }
+ #about{
+    margin-top: 25px;
+  }
+#homer{
+  margin-left: 59px;
+  font-size: 25px;
+  margin-top: 20px;
+}
+  #sc{
+    display: none;
+    width: 110px;
+    border-radius: 10px;
+    margin-top: 10px;
+    height: 20px;
+  }
+  #tog{
+    display: flex;
+    /* margin-left: 5px; */
+    width: 100px;
+    height: 100px;
+    /* bottom: 10px; */
+    position: absolute;
+    right: 0px;
+  }
+  #WithAqua{
+    display:  none;
+  }
+  .hamburger {
+  font-size: 2.5rem;
+  color: aqua;
+  cursor: pointer;
+  position: fixed;
+  top: 15px;
+  left: 0px;
+  z-index: 1001;
+}
+#hom{
+  font-size: 22px;
+}
+.seeh{
+  font-size: 35px;
+}
+#hams{
+  font-size: 49px;
+}
+/* Side Menu Panel */
+.side-menu {
+  position: fixed;
+  top: 0;
+  left: -100%;
+  height: 100vh;
+  width: 260px;
+  background-color: #0a0a0a;
+  color: white;
+  padding: 2rem 1.5rem;
+  box-shadow: 2px 0 10px rgba(0, 255, 255, 0.2);
+  transition: left 0.4s ease;
+  z-index: 1000;
+}
+
+.side-menu.active {
+  left: 0;
+}
+
+/* Close Button */
+.close-btn {
+  font-size: 2rem;
+  color: aqua;
+  cursor: pointer;
+  text-align: right;
+  display: block;
+  margin-bottom: 1rem;
+}
+
+/* Navigation item containers */
+.pAndImg {
+  display: flex;
+  align-items: center;
+  gap: 0.7rem;
+  margin-bottom: 1.5rem;
+  padding: 0.5rem;
+  border-radius: 8px;
+  transition: background 0.3s;
+}
+
+.pAndImg:hover {
+  background-color: rgba(0, 255, 255, 0.1);
+}
+
+/* Icons inside menu */
+.seer {
+  font-size: 25px;
+  color: aqua;
+}
+
+/* Text labels */
+.see {
+  font-size: 1rem;
+  color: white;
+  font-weight: bold;
+  letter-spacing: 1px;
+}
+
+/* Underlines */
+.underline,
+.line3,
+.line {
+  width: 100%;
+  height: 2px;
+  background-color: aqua;
+  margin-top: 0px;
+  opacity: 0.2;
+  transition: opacity 0.3s;
+}
+
+.pAndImg:hover .underline {
+  opacity: 1;
+}
+  .flip-card-back p{
+   display: none;
+  }
+  .navsshow{
+    display: flex;
+    /* background-color: #00bcd4; */
+    gap: 50px;
+    margin-left: 0px;
+  }
+  .navs{
+    display: none;
+  }
+  .thacoder {
+    display: none;
+  }
+  .pAndImg span{
+    font-size: 45px;
+  }
+  .seer:hover .see{
+    opacity: 1;
+  }
+ 
+  .Header{
+    align-items: center;
+  }
+  .navsshow{
+    margin-left: 200px;
+  } 
+  .pAndImg p{
+    font-size: 15px;
+    color: aqua;
+    position: absolute;
+    bottom: -17px;
+    opacity: 1;    
+  }
+  .heroRight{
+    display: none;
+  }
+  .heroLeft{
+    width: 100%;
+  }
+  .heroLeft h1{
+   font-size: 43px;
+  }
+  .about-me p{
+    font-size: 22px;
+  }
+  .buttonsIcons{
+  }
+  .buttonsIconss{
+    width: 100%;
+  }
+  .about-me{
+    margin-top: -150px;
+  }
+  .flip-card{
+    width: 120px;
+    height:120px
+  }
+  .flip-card-front img{
+   width: 45px;
+   margin-bottom: -29px;
+  }
+  .flip-card-front h3{
+     font-size: 15px;
+     /* margin-top: 45px; */
+  }
+  .flip-card-inner{
+    grid-template-columns: 1fr 1fr;
+    display: grid;
+  }
+  .galleryPort{
+    display:grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+  }
+  .project1{
+    width: 190px;
+    height: 250px;
+    border-radius:0 ;
+  }
+  .aboutProject h2{
+    font-size: 17px;
+  }
+  .aboutProject{
+    /* background-color: red; */
+    margin-top: -33px;
+  }
+  .languaages{
+    margin-top:-5px;
+    /* background-color: red; */
+    margin-left:5px;
+  }
+  .Hero{
+    /* margin-top: 0px; */
+  }
+  .lists{
+
+  }
+  .lists img{
+    width:20px;
+
+
+  }
+  .lists p{
+    font-size:15px;
+  }
+  .html{
+        margin-top: 0;
+        /* background-color: white; */
+    }
+}
+
+
+@media screen and (min-width: 375px) and (max-width: 415px) {
+   .hamburger {
+    display: inline-block;
+    font-size: 30px;
+    color: aqua;
+    cursor: pointer;
+    padding: 10px;
+    z-index: 1100;
+  }
+
+  .side-menu {
+    display: block;
+  }
+  #about{
+    margin-top: 25px;
+  }
+#homer{
+  margin-left: 59px;
+  font-size: 25px;
+  margin-top: 20px;
+}
+  #sc{
+    display: none;
+    width: 110px;
+    border-radius: 10px;
+    margin-top: 10px;
+    height: 20px;
+  }
+  #tog{
+    display: flex;
+    margin-left: 10px;
+    width: 100px;
+    height: 100px;
+    /* bottom: 10px; */
+    position: absolute;
+    /* right: 0px; */
+  }
+  #WithAqua{
+    display:  none;
+  }
+  .hamburger {
+  font-size: 2.5rem;
+  color: aqua;
+  cursor: pointer;
+  position: fixed;
+  top: 15px;
+  left: 0px;
+  z-index: 1001;
+}
+#hom{
+  font-size: 22px;
+}
+.seeh{
+  font-size: 35px;
+}
+#hams{
+  font-size: 49px;
+}
+/* Side Menu Panel */
+.side-menu {
+  position: fixed;
+  top: 0;
+  left: -100%;
+  height: 100vh;
+  width: 260px;
+  background-color: #0a0a0a;
+  color: white;
+  padding: 2rem 1.5rem;
+  box-shadow: 2px 0 10px rgba(0, 255, 255, 0.2);
+  transition: left 0.4s ease;
+  z-index: 1000;
+}
+
+.side-menu.active {
+  left: 0;
+}
+
+/* Close Button */
+.close-btn {
+  font-size: 2rem;
+  color: aqua;
+  cursor: pointer;
+  text-align: right;
+  display: block;
+  margin-bottom: 1rem;
+}
+
+/* Navigation item containers */
+.pAndImg {
+  display: flex;
+  align-items: center;
+  gap: 0.7rem;
+  margin-bottom: 1.5rem;
+  padding: 0.5rem;
+  border-radius: 8px;
+  transition: background 0.3s;
+}
+
+.pAndImg:hover {
+  background-color: rgba(0, 255, 255, 0.1);
+}
+
+/* Icons inside menu */
+.seer {
+  font-size: 25px;
+  color: aqua;
+}
+
+/* Text labels */
+.see {
+  font-size: 1rem;
+  color: white;
+  font-weight: bold;
+  letter-spacing: 1px;
+}
+
+/* Underlines */
+.underline,
+.line3,
+.line {
+  width: 100%;
+  height: 2px;
+  background-color: aqua;
+  margin-top: 0px;
+  opacity: 0.2;
+  transition: opacity 0.3s;
+}
+
+.pAndImg:hover .underline {
+  opacity: 1;
+}
+  .flip-card-back p{
+   display: none;
+  }
+  .navsshow{
+    display: flex;
+    /* background-color: #00bcd4; */
+    gap: 50px;
+    margin-left: 0px;
+  }
+  .navs{
+    display: none;
+  }
+  .thacoder {
+    display: none;
+  }
+  .pAndImg span{
+    font-size: 45px;
+  }
+  .seer:hover .see{
+    opacity: 1;
+  }
+ 
+  .Header{
+    align-items: center;
+  }
+  .navsshow{
+    margin-left: 200px;
+  } 
+  .pAndImg p{
+    font-size: 15px;
+    color: aqua;
+    position: absolute;
+    bottom: -17px;
+    opacity: 1;    
+  }
+  .heroRight{
+    display: none;
+  }
+  .heroLeft{
+    width: 100%;
+  }
+  .heroLeft h1{
+   font-size: 43px;
+  }
+  .about-me p{
+    font-size: 22px;
+  }
+  .buttonsIcons{
+  }
+  .buttonsIconss{
+    width: 100%;
+  }
+  .about-me{
+    margin-top: -150px;
+  }
+  .flip-card{
+    width: 120px;
+    height:120px
+  }
+  .flip-card-front img{
+   width: 45px;
+   margin-bottom: -29px;
+  }
+  .flip-card-front h3{
+     font-size: 15px;
+     /* margin-top: 45px; */
+  }
+  .flip-card-inner{
+    grid-template-columns: 1fr 1fr;
+    display: grid;
+  }
+  .galleryPort{
+    display:grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+  }
+  .project1{
+    width: 190px;
+    height: 250px;
+    border-radius:0 ;
+  }
+  .aboutProject h2{
+    font-size: 17px;
+  }
+  .aboutProject{
+    /* background-color: red; */
+    margin-top: -33px;
+  }
+  .languaages{
+    margin-top:-5px;
+    /* background-color: red; */
+    margin-left:5px;
+  }
+  .Hero{
+    /* margin-top: 0px; */
+  }
+  .lists{
+
+  }
+  .lists img{
+    width:20px;
+
+
+  }
+  .lists p{
+    font-size:15px;
+  }
+  .html{
+        margin-top: 0;
+        /* background-color: white; */
+    }
+}
+
+@media screen and (min-width: 320px) and (max-width: 885px) {
+   .hamburger {
+    display: inline-block;
+    font-size: 30px;
+    color: aqua;
+    cursor: pointer;
+    padding: 10px;
+    z-index: 1100;
+  }
+
+  .side-menu {
+    display: block;
+  }
+ #about{
+    margin-top: 25px;
+  }
+#homer{
+  margin-left: 59px;
+  font-size: 25px;
+  margin-top: 20px;
+}
+  #sc{
+    display: none;
+    width: 110px;
+    border-radius: 10px;
+    margin-top: 10px;
+    height: 20px;
+  }
+  #tog{
+    display: flex;
+    /* margin-left: 5px; */
+    width: 100px;
+    height: 100px;
+    /* bottom: 10px; */
+    position: absolute;
+    right: 0px;
+  }
+  #WithAqua{
+    display:  none;
+  }
+  .hamburger {
+  font-size: 2.5rem;
+  color: aqua;
+  cursor: pointer;
+  position: fixed;
+  top: 15px;
+  left: 0px;
+  z-index: 1001;
+}
+#hom{
+  font-size: 22px;
+}
+.seeh{
+  font-size: 35px;
+}
+#hams{
+  font-size: 49px;
+}
+/* Side Menu Panel */
+.side-menu {
+  position: fixed;
+  top: 0;
+  left: -100%;
+  height: 100vh;
+  width: 260px;
+  background-color: #0a0a0a;
+  color: white;
+  padding: 2rem 1.5rem;
+  box-shadow: 2px 0 10px rgba(0, 255, 255, 0.2);
+  transition: left 0.4s ease;
+  z-index: 1000;
+}
+
+.side-menu.active {
+  left: 0;
+}
+
+/* Close Button */
+.close-btn {
+  font-size: 2rem;
+  color: aqua;
+  cursor: pointer;
+  text-align: right;
+  display: block;
+  margin-bottom: 1rem;
+}
+
+/* Navigation item containers */
+.pAndImg {
+  display: flex;
+  align-items: center;
+  gap: 0.7rem;
+  margin-bottom: 1.5rem;
+  padding: 0.5rem;
+  border-radius: 8px;
+  transition: background 0.3s;
+}
+
+.pAndImg:hover {
+  background-color: rgba(0, 255, 255, 0.1);
+}
+
+/* Icons inside menu */
+.seer {
+  font-size: 25px;
+  color: aqua;
+}
+
+/* Text labels */
+.see {
+  font-size: 1rem;
+  color: white;
+  font-weight: bold;
+  letter-spacing: 1px;
+}
+
+/* Underlines */
+.underline,
+.line3,
+.line {
+  width: 100%;
+  height: 2px;
+  background-color: aqua;
+  margin-top: 0px;
+  opacity: 0.2;
+  transition: opacity 0.3s;
+}
+
+.pAndImg:hover .underline {
+  opacity: 1;
+}
+  .flip-card-back p{
+   display: none;
+  }
+  .navsshow{
+    display: flex;
+    /* background-color: #00bcd4; */
+    gap: 50px;
+    margin-left: 0px;
+  }
+  .navs{
+    display: none;
+  }
+  .thacoder {
+    display: none;
+  }
+  .pAndImg span{
+    font-size: 45px;
+  }
+  .seer:hover .see{
+    opacity: 1;
+  }
+ 
+  .Header{
+    align-items: center;
+  }
+  .navsshow{
+    margin-left: 200px;
+  } 
+  .pAndImg p{
+    font-size: 15px;
+    color: aqua;
+    position: absolute;
+    bottom: -17px;
+    opacity: 1;    
+  }
+  .heroRight{
+    display: none;
+  }
+  .heroLeft{
+    width: 100%;
+  }
+  .heroLeft h1{
+   font-size: 43px;
+  }
+  .about-me p{
+    font-size: 22px;
+  }
+  .buttonsIcons{
+  }
+  .buttonsIconss{
+    width: 100%;
+  }
+  .about-me{
+    margin-top: -150px;
+  }
+  .flip-card{
+    width: 120px;
+    height:120px
+  }
+  .flip-card-front img{
+   width: 45px;
+   margin-bottom: -29px;
+  }
+  .flip-card-front h3{
+     font-size: 15px;
+     /* margin-top: 45px; */
+  }
+  .flip-card-inner{
+    grid-template-columns: 1fr 1fr;
+    display: grid;
+  }
+  .galleryPort{
+    display:grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+  }
+  .project1{
+    width: 190px;
+    height: 250px;
+    border-radius:0 ;
+  }
+  .aboutProject h2{
+    font-size: 17px;
+  }
+  .aboutProject{
+    /* background-color: red; */
+    margin-top: -33px;
+  }
+  .languaages{
+    margin-top:-5px;
+    /* background-color: red; */
+    margin-left:5px;
+  }
+  .Hero{
+    /* margin-top: 0px; */
+  }
+  .lists{
+
+  }
+  .lists img{
+    width:20px;
+
+
+  }
+  .lists p{
+    font-size:15px;
+  }
+  .html{
+        margin-top: 0;
+        /* background-color: white; */
+    }
+}
+.hamburger,
+.close-icon {
+  display: none;
+  cursor: pointer;
+  font-size: 28px;
+  padding: 8px;
+}
+
+.direct-contact {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  padding: 20px;
+  align-items: flex-start;
+}
+
+.direct-contact a {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  color: inherit;
+  text-decoration: none;
+  font-size: 16px;
+  font-weight: 500;
+  transition: color 0.3s ease;
+}
+
+.direct-contact a:hover {
+  color: aqua;
+}
+
+.direct-contact .icon {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 32px;
+  height: 32px;
+  font-size: 18px;
+  border: 2px solid aqua;
+  border-radius: 50%;
+  transition: all 0.3s ease;
+  color: inherit;
+}
+
+.direct-contact a:hover .icon {
+  color: aqua;
+  box-shadow: 0 0 6px aqua;
+}
+.direct-contact{
+  margin-left: 500px;
+}

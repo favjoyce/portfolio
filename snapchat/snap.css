@@ -1,0 +1,169 @@
+body{
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    background-color: transparent;
+
+}
+.left-hold{
+    width: 40%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    min-width: 40%;
+
+}
+*{
+    padding: 0;
+    margin: 0;
+    font-family: arial;
+}
+.right-hold{
+    width: 60%;
+    min-width: 500px;
+    height: 90%;
+    background-color: yellow;
+    border-radius: 19px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 20px;
+    justify-content: space-between;
+}
+
+p{
+    color: black;
+}
+.snap-face-img{
+   width: 100%;
+   margin-bottom: -25px;
+}
+.down-img{
+    margin-top: 50px;
+    height: 100%;
+
+}
+.left-inner{
+    width: 35%;
+    height: 80%;
+    margin-top: 70px;
+    top: 2px;
+    position: fixed;
+    left: 50px;
+    min-width: 400px;
+    max-width: 400px;
+}
+.login-text{
+    margin-top: 70px;
+    font-size: 22px;
+}
+.p1{
+    font-size: 17px;
+    margin-top: 20px;
+    margin-bottom: 16px;
+    color: #4e4e4f;
+
+}
+.Username{
+    color: #4e4e4f;
+    margin-bottom: 20px;
+
+}
+input{
+    background-color:#e5e8f2;
+    outline: none;
+    border: none;
+    width: 100%;
+    height: 40px;
+    border-radius: 5px;
+    padding-left: 10px;
+}
+.a{
+    margin-top: 35px;
+}
+.use-phone{
+    margin-top: 16px;
+    text-align: center;
+    font-size: 13px;
+    color: rgb(0, 166, 255);
+}
+.log-button{
+    background-color: rgb(0, 166, 255);
+    width: 100%;
+    height: 40px;
+    border-radius: 20px;
+    outline: none;
+    border: none;
+    color: white;
+    margin-top: 18px;
+    font-size: 14px;
+}
+.log-button:hover{
+    background-color: rgb(0, 166, 255);
+    cursor: pointer;
+    width: 100%;
+    height: 40px;
+    border-radius: 20px;
+    outline: none;
+    border: none;
+    color: white;
+    margin-top: 18px;
+    font-size: 14px;
+}
+.or-continue{
+    margin-top: 22px;
+    color: #4e4e4f;
+    font-size: 15px;
+    margin-bottom: 17px;
+}
+span{
+    text-decoration: underline;
+}
+.Looking-for-the-app{
+    margin-top: 12px;
+    color: #4e4e4f;
+    font-size: 14px;
+} 
+.button-microsoft{
+    background-color: black;
+    width: 120px;
+    height: 40px;
+    display: flex;
+    border: none;
+    outline: none;
+    border-radius: 5px;
+}
+.button-microsoft:hover{
+    background-color: black;
+    width: 120px;
+    height: 40px;
+    cursor: pointer;
+    display: flex;
+    border: none;
+    outline: none;
+    border-radius: 5px;
+}
+.get-it-from-div{
+    color: #ffffff;
+    width: 90px;
+    margin-left: -28px;
+    margin-top: 9px;
+
+}
+.microsoft-img-div{
+height: 35px;
+object-fit: cover;
+border-radius: 5px;
+object-position: center;
+}
+.p-tag{
+    color: white;
+    font-size: 10px;
+    margin-left: -16px;
+}
+.p-tag2{
+    color: white;
+    font-size: 14px;
+}

@@ -1,0 +1,883 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ThaCoder's Portofolio</title>
+    <link rel="stylesheet" href="portfolio.css">
+    
+    <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined" rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/css2?family=Inter&display=swap" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@4.0.0/fonts/remixicon.css" rel="stylesheet">
+
+
+</head>
+<body>
+    <div class="general">
+    <div class="Header">
+       <div class="thacoder">
+        <h1 style="font-weight: 700; text-shadow: 0 0 5px aqua, 0 0 10px aqua, 0 0 15px aqua;"> <strong>Thacoder</strong></h1>
+       </div>
+
+       <div class="navs">
+        <div class="pAndImg">
+         <a class="home" href="#home">Home </a>
+
+         <span class="material-symbols-outlined  drop1">
+arrow_drop_down
+</span>
+<div class="underlin"></div>
+        </div>
+
+        <div class="pAndImg">
+         <a class="home2" href="#about">About </a>
+<span class="material-symbols-outlined drop">
+arrow_drop_down
+</span>      
+<div class="underline"></div>
+
+  </div>
+
+        <div class="pAndImg">
+         <a class="home3" href="#gallery">Gallery </a>
+<span class="material-symbols-outlined drop">
+arrow_drop_down
+</span>  
+<div class="underline line3"></div>
+      </div>
+
+        <!-- <div class="pAndImg">
+         <a class="home4">Socials </a>
+<span class="material-symbols-outlined drop">
+arrow_drop_down
+</span>       
+<div class="underline line4"></div>
+ </div> -->
+
+         <div class="pAndImg">
+         <a class="home5" href="#contact">Contact Me</a>
+<span class="material-symbols-outlined drop">
+arrow_drop_down
+</span>        
+<div class="underline line"></div>
+</div>
+       </div>
+
+
+          <div class=" navsshow  " id="homer">
+        <div class="pAndImg">
+
+<h1 style="font-size: 25px;">ANYIA <strong style="color:aqua; font-size: 25px;">JOYCE</strong></h1>
+        </div>    
+       </div>
+
+
+
+
+
+
+       <div class="toggleDiv" id="tog">
+            <button id="toggleBtn" class="dark">
+              
+<span class="material-symbols-outlined darkmode">
+dark_mode
+</span>
+<p id="WithAqua">Dark mode</p>
+</button>
+       </div>
+
+       <div class="SearchIcon" id="sc">
+        <div class="searchWrap">
+        <span class="material-symbols-outlined searchs">
+        search
+        </span>
+        <input type="text" id="sectionSearch" placeholder="Search-Section" class="search">
+        </div>
+       </div>
+
+       <span class="hamburger material-symbols-outlined ham" id="hams" onclick="toggleMenu()">menu</span>
+
+       <div class="side-menu" id="sideMenu">
+  <span class="close-btn material-symbols-outlined" onclick="toggleMenu()" style="margin-top: -20px; font-size: 40px;">close</span>
+
+     <div class="pAndImg">
+         <a class="home" href="#home"><span class="material-symbols-outlined seer">home</span> </a>
+         <p class="see">HOME</p>      
+
+  </div>
+
+   <div class="pAndImg">
+         <a class="home2" href="#about"><span class="material-symbols-outlined seer">person</span> </a>
+         <p class="see">ABOUT</p>      
+
+  </div>
+
+          <div class="pAndImg">
+         <a class="home3" href="#gallery"> <span class="material-symbols-outlined seer">photo_library</span>
+          <p class="see">PROJECTS</p>
+ </a>
+  
+      </div>
+   <div class="pAndImg">
+         <a class="home5" href="#contact"> <span class="material-symbols-outlined seer">mail</span></a>
+         <p class="see">CONTACT</p>
+       
+</div>
+</div>
+
+    </div>
+
+    <div class="Hero" id="home">
+      <div class="heroLeft">
+        <h3>Hello,my name is</h3>
+        <h1>Anyia <span class="joyce">Joyce</span> </h1>
+         <!-- <p class="iam">I'm a <span class="anime"></span></p> -->
+         <p class="iam">I am a <span id="typed-text" class="highlight"></span><span class="cursor">|</span></p>
+
+         <a href="cv.html" target="_blank"
+   style=" margin-top: 20px; display: inline-block; padding: 10px 20px; color: inherit; border: 2px solid aqua; border-radius: 8px; text-decoration: none; font-weight: bold; transition: 0.3s ease;"
+   onmouseover="this.style.backgroundColor='aqua'; this.style.color='black';"
+   onmouseout="this.style.backgroundColor='transparent'; this.style.color='white';">
+  📄 Download CV
+</a>
+         
+          <div class="findme">
+          <h2>Find Me Online</h2>
+         </div>
+         <div class="buttonsIcons">
+
+            <div class="buttonsIconss">
+            <button id="githubBtn">
+               <a href="https://www.tiktok.com/@thacoder1" target="_blank" rel="noopener noreferrer"> <i class="ri-tiktok-line"></i></a>
+            </button>
+            
+            <div class="Tiktok"><p>Tiktok</p></div>
+            </div>
+
+            <div class="buttonsIconss">
+            <button>
+              <a href=" http://linkedin.com/in/anyia-favour-803842313" target="_blank" rel="noopener noreferrer"><i class="ri-linkedin-fill"></i></a>
+            </button>
+            <div class="Tiktok"><p>LinkedIn</p></div>
+            </div>
+
+<div class="buttonsIconss">
+            <button>
+                <a href=""><i class="ri-facebook-fill"></i></a>
+            </button>
+            <div class="Tiktok"><p>Facebook</p></div>
+</div>            
+
+<div class="buttonsIconss">
+            <button>
+                <a href="https://github.com/favjoyce" target="_blank"><i class="ri-github-line"></i></a>
+            </button>
+            <div class="Tiktok"><p>Github</p></div>
+</div>
+
+<div class="buttonsIconss">
+            <button>
+                <a href="mailto:anyiafavour15@gmail.com"><i class="ri-mail-line"></i></a>
+           </button>
+            <div class="Tiktok"><p>Email</p></div>
+</div>
+         </div>
+         
+      </div>
+      <div class="heroRight">
+ <div class="gifBox">
+  <h4>💻 Dev Mood</h4>
+  <img id="devGif" src="" alt="Developer Reaction GIF" />
+  <button id="newReactionBtn">New Reaction 🔁</button>
+</div>
+
+
+      </div>
+      
+    </div>
+
+    <div class="aboutMe" id="about">
+
+<div class="about-me">
+  <h2>About Me</h2>
+  
+  <p>
+    Hi, I’m <strong>ANYIA FAVOUR JOYCE</strong> — a passionate full-stack developer who builds both the frontend and backend of web apps from scratch.<br>
+    I love bringing designs to life and solving real-world challenges with clean, efficient code.<br>
+    I’ve cloned and customized over <strong>7+ REAL WORLD WEBSITES</strong> to sharpen my skills and push creative limits.
+  </p>
+  
+  <p>
+    <strong>MY GOAL : </strong>to create fast, accessible, and beautiful web apps that solve real problems.<br>
+    Whether it’s crafting CSS animations or structuring backend logic,<br>
+    I focus on writing code that works — and wows.
+  </p>
+  
+  <p>
+    I believe in learning by doing — breaking things, fixing them, and improving with every project.<br>
+    Every bug is a lesson, and every line of code is a step forward.<br>
+    I’m not just coding; I’m building momentum.
+  </p>
+</div>
+
+
+<div class="aboutMeText">
+  <h1 id="typewriter" class="typing"></h1>
+</div>
+
+
+      <div class="techSkills">
+       
+        <div class="flip-card html">
+    <div class="flip-card-inner">
+      <div class="flip-card-front">
+        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg" alt="HTML" />
+        <h3 class="html">HTML5</h3>
+      </div>
+<!--       
+<div class="aboutMeText">
+  <h1 id="typewriter"></h1>
+</div> -->
+      <div class="flip-card-back">
+
+        <div class="back-text">
+          <div class="progress-container">
+        <label>Proficiency :</label>
+        <div class="progress-bar">
+          <div class="progress-fill html-fill"></div>
+        </div>
+      </div>
+          <p>
+🛠 <strong>Tools :</strong> VS Code, GitHub, Chrome DevTools <br>
+📁 <strong>Project: </strong>Cloned almost <span>20+ </span>websites at the moment <br>
+          </p>
+        </div>
+
+      </div>
+    </div>
+  </div>
+
+  <div class="flip-card css">
+    <div class="flip-card-inner">
+      <div class="flip-card-front">
+        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg" alt="CSS" />
+                <h3 class="html">CSS3</h3>
+
+      </div>
+            <div class="flip-card-back">
+              <div class="back-text">
+          <div class="progress-container">
+        <label>Proficiency :</label>
+        <div class="progress-bar">
+          <div class="progress-fill css-fill"></div>
+        </div>
+      </div>
+<p>
+🛠 <strong>Tools:</strong> VS Code, GitHub, Chrome DevTools, Live Server <br>
+📁 <strong>Projects:</strong> Styled and animated <span>20+ </span>websites with Flexbox, Grid, transitions & hover effects <br>
+</p>
+
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="flip-card js">
+    <div class="flip-card-inner">
+      <div class="flip-card-front">
+        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" alt="JavaScript" />
+                <h3 class="html">JavaScript</h3>
+
+      </div>
+            <div class="flip-card-back">
+                            <div class="back-text">
+          <div class="progress-container">
+        <label>Proficiency :</label>
+        <div class="progress-bar">
+          <div class="progress-fill js-fill"></div>
+        </div>
+      </div>
+<p>
+🛠 <strong>Tools:</strong> VS Code, Chrome DevTools, Console, GitHub <br>
+📁 <strong>Projects:</strong> Cloned <span>7+ </span>websites interactive with DOM manipulation, APIs & event-driven logic <br> 
+
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="flip-card java">
+    <div class="flip-card-inner">
+      <div class="flip-card-front">
+        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-original.svg" alt="Java" />
+                <h3 class="html">Java</h3>
+
+      </div>
+      <div class="flip-card-back">
+                      <div class="back-text">
+          <div class="progress-container">
+        <label>Proficiency :</label>
+        <div class="progress-bar">
+          <div class="progress-fill java-fill"></div>
+        </div>
+      </div>
+<p>
+🛠 <strong>Tools:</strong> IntelliJ, JDK 24, Git <br>
+📁 <strong>Projects:In Progress</strong>
+</p>
+
+        </div>
+      </div>   
+    </div>
+  </div>
+
+  <div class="flip-card mongodb">
+    <div class="flip-card-inner">
+      <div class="flip-card-front">
+        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mongodb/mongodb-original.svg" alt="MongoDB" />
+                <h3 class="html">MongoDB</h3>
+
+      </div>
+      <div class="flip-card-back">
+              <div class="back-text">
+          <div class="progress-container">
+        <label>Proficiency :</label>
+        <div class="progress-bar">
+          <div class="progress-fill mongodb-fill"></div>
+        </div>
+      </div>
+<p>
+🛠 <strong>Tools:</strong> MongoDB Atlas, Compass <br>
+📁 <strong>Projects:</strong> Managed <span>5+ </span>databases with dynamic schemas 
+</p>
+
+        </div>
+            </div>
+  </div>
+  </div>
+
+  <div class="flip-card sql">
+    <div class="flip-card-inner">
+      <div class="flip-card-front">
+        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mysql/mysql-original.svg" alt="SQL" />
+                <h3 class="html">SQL</h3>
+
+      </div>
+      <div class="flip-card-back">
+              <div class="back-text">
+          <div class="progress-container">
+        <label>Proficiency :</label>
+        <div class="progress-bar">
+          <div class="progress-fill sql-fill"></div>
+        </div>
+      </div>
+<p>
+🛠 <strong>Tools:</strong> MySQL,  Workbench <br>
+📁 <strong>Projects:</strong> Designed & queried <span>4+ </span>relational databases using JOINs, triggers, and constraints <br>
+</p>
+        </div>      </div>  
+      </div>
+  </div>
+
+  <div class="flip-card nodejs">
+    <div class="flip-card-inner">
+      <div class="flip-card-front">
+        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original.svg" alt="Node.js" />
+                <h3 class="html">Node JS</h3>
+
+      </div>
+                  <div class="flip-card-back">
+              <div class="back-text">
+          <div class="progress-container">
+        <label>Proficiency :</label>
+        <div class="progress-bar">
+          <div class="progress-fill nodejs-fill"></div>
+        </div>
+      </div>
+<p>
+🛠 <strong>Tools:</strong> VS Code, Postman, Git <br>
+📁 <strong>Projects:</strong> Created <span>2 </span> with MongoDB integration <br>
+</p>
+
+        </div>
+            </div>
+    </div>
+  </div>
+
+  <div class="flip-card spring">
+    <div class="flip-card-inner">
+      <div class="flip-card-front">
+        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/spring/spring-original.svg" alt="Spring" />
+                <h3 class="html">Spring</h3>
+
+      </div>
+            <div class="flip-card-back">
+                            <div class="back-text">
+          <div class="progress-container">
+        <label>Proficiency :</label>
+        <div class="progress-bar">
+          <div class="progress-fill spring-fill"></div>
+        </div>
+      </div>
+<p>
+🛠 <strong>Tools:</strong> IntelliJ, Postman, Spring Initializr<br>
+📁 <strong>Projects: </strong> Learning in progress<br>
+</p>
+
+        </div>
+      </div>  
+    </div>
+  </div>
+
+  <div class="flip-card react">
+    <div class="flip-card-inner">
+      <div class="flip-card-front">
+        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg" alt="React" />
+                <h3 class="html">React</h3>
+
+      </div>
+            <div class="flip-card-back">
+                            <div class="back-text">
+          <div class="progress-container">
+        <label>Proficiency :</label>
+        <div class="progress-bar">
+          <div class="progress-fill react-fill"></div>
+        </div>
+      </div>
+ <p>
+🛠 <strong>Tools:</strong> Vite, React DevTools, GitHub, JSX, Hooks <br>
+📁 <strong>Projects:</strong> Cloned <span>5+ </span>dynamic SPAs with reusable components & real-time state updates <br>
+</p>
+
+        </div>
+      </div>  
+    </div>
+  </div>
+
+  <div class="flip-card reactnative">
+    <div class="flip-card-inner">
+      <div class="flip-card-front">
+        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg" alt="React Native" />
+
+        <h3 class="html">React <br> Native</h3>
+
+      </div>
+        <div class="flip-card-back">
+                        <div class="back-text">
+          <div class="progress-container">
+        <label>Proficiency :</label>
+        <div class="progress-bar">
+          <div class="progress-fill reactnative-fill"></div>
+        </div>
+      </div>
+          <p>
+Learning in progress
+        </div>
+      </div>  
+    </div>
+  </div>
+
+      </div>
+    </div>
+
+    <div class="gpGeneral" id="gallery" >
+
+      <div class="gpText">
+       <h2 class="thacGallery">ThaCoder's Gallery</h2>
+
+       <h1 > Some Projects I Have <strong class="cloned">Made/Cloned</strong> <span>Click <a href="http://linkedin.com/in/anyia-favour-803842313" class="heretoView" target="_blank">Here </a> to View More On LinkedIn</span> </h1>
+      </div>
+      <div class="galleryPort">
+   
+       <div class="project1">
+         <div class="img">
+          <video src="./images/utiva1.mp4" autoplay
+  muted
+  loop
+  playsinline></video>
+          <img src="./images/utivaimg.webp" alt="">
+
+         </div>
+         <div class="aboutProject">
+          <a href="http://linkedin.com/in/anyia-favour-803842313" class="viewUtiv" target="_blank"><h2 class="vU"> View Utiva webSite Clone</h2></a>
+
+          <div class="languaages">
+            <p>Languages Used</p>
+            <li class="list">
+              <ul class="lists"> &bull; <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg" alt=""> <p>ReactJs</p></ul>
+            </li>
+          </div>
+
+         </div>
+       </div>
+
+
+       <div class="project1">
+         <div class="img">
+          <video src="./images/atlassian.mp4" autoplay
+  muted
+  loop
+  playsinline></video>
+          <img src="./images/Atlassian.png" alt="">
+
+         </div>
+         <div class="aboutProject">
+          <a href="http://linkedin.com/in/anyia-favour-803842313" class="viewUtiv" target="_blank"><h2 class="vU"> View Atlsian webSite Clone</h2></a>
+
+          <div class="languaages">
+            <p>Languages Used</p>
+            <li class="list">
+              <ul class="lists"> &bull; <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg" alt=""> <p>ReactJs</p></ul>
+            </li>
+          </div>
+
+         </div>
+       </div>
+
+
+       
+        <div class="project1">
+         <div class="img">
+          <video src="./images/anvogue.mp4" autoplay
+  muted
+  loop
+  playsinline></video>          
+          <img src="./images/anvogue.png" alt="">
+
+         </div>
+         <div class="aboutProject">
+          <a href="http://linkedin.com/in/anyia-favour-803842313" class="viewUtiv" target="_blank"><h2 class="vU"> View Anvogue  Clone</h2></a>
+
+          <div class="languaages">
+            <p>Languages Used</p>
+            <li class="list">
+              <ul class="lists"> &bull; <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg" alt=""> <p>ReactJs</p></ul>
+            </li>
+          </div>
+
+         </div>
+       </div>
+
+         <div class="project1">
+         <div class="img">
+        <video src="./fistudy.mp4" autoplay
+  muted
+  loop
+  playsinline></video>
+          <img src="./images/fistudy.png" alt="">
+
+         </div>
+         <div class="aboutProject">
+          <a href="http://linkedin.com/in/anyia-favour-803842313" class="viewUtiv" target="_blank"><h2 class="vU"> View  Fistudy Clone</h2></a>
+
+          <div class="languaages">
+            <p>Languages Used</p>
+            <li class="list">
+              <ul class="lists"> &bull;  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg" alt=""> <p>HTML5</p>
+                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg" alt=""> <p>CSS3</p>
+              </ul>
+            </li>
+          </div>
+
+         </div>
+       </div>
+
+
+       <div class="project1">
+         <div class="img">
+                    <video src="./images/Fiverr-com.mp4" autoplay
+  muted
+  loop
+  playsinline></video>
+          <img src="./images/fiverr.png" alt="">
+
+         </div>
+         <div class="aboutProject">
+          <a href="./fiverrrr/fiver/fiver.html" class="viewUtiv" target="_blank"><h2 class="vU"> View  Fiverr Clone</h2></a>
+
+          <div class="languaages">
+            <p>Languages Used</p>
+            <li class="list">
+<ul class="lists"> &bull;  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg" alt=""> <p>HTML5</p>
+                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg" alt=""> <p>CSS3</p>
+              </ul>
+            </li>
+          </div>
+
+         </div>
+       </div>
+
+               <div class="project1">
+         <div class="img">
+                    <video src="./images/transition.mp4" autoplay
+  muted
+  loop
+  playsinline></video>
+          <img src="./images/transition.png" alt="">
+
+         </div>
+         <div class="aboutProject">
+          <a href="./fiverrrr/fiver/transitions/transition.css/transition.html" class="viewUtiv" target="_blank"><h2 class="vU"> View Login/SignUp Page</h2></a>
+
+          <div class="languaages">
+            <p>Languages Used</p>
+            <li class="list">
+            <ul class="lists"> &bull;  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg" alt=""> <p>HTML5</p>
+                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg" alt=""> <p>CSS3</p>
+              </ul>
+            </li>
+          </div>
+
+         </div>
+       </div>
+
+
+               <div class="project1">
+         <div class="img">
+                    <video src="./images/rps.mp4" autoplay
+  muted
+  loop
+  playsinline></video>
+          <img src="./images/RPS.png" alt="">
+
+         </div>
+         <div class="aboutProject">
+          <a href="http://linkedin.com/in/anyia-favour-803842313" class="viewUtiv" target="_blank"><h2 class="vU"> View Rock Paper Scissors Game</h2></a>
+
+          <div class="languaages">
+            <p>Languages Used</p>
+            <li class="list">
+<ul class="lists"> &bull;  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg" alt=""> <p>HTML5</p>
+                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg" alt=""> <p>CSS3</p>
+                 <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" alt="JavaScript" /> <p>JS</p>
+              </ul>
+            </li>
+          </div>
+
+         </div>
+       </div>
+
+
+               <div class="project1">
+         <div class="img">
+                    <video src="./images/mediweb.mp4" autoplay
+  muted
+  loop
+  playsinline></video>
+          <img src="./images/mediweb.png" alt="">
+
+         </div>
+         <div class="aboutProject">
+          <a href="http://linkedin.com/in/anyia-favour-803842313" class="viewUtiv" target="_blank"><h2 class="vU"> View mediweb Website Clone</h2></a>
+
+          <div class="languaages">
+            <p>Languages Used</p>
+            <li class="list">
+<ul class="lists"> &bull;  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg" alt=""> <p>HTML5</p>
+                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg" alt=""> <p>CSS3</p>
+              </ul>
+            </li>
+          </div>
+
+         </div>
+       </div>
+
+
+               <div class="project1">
+         <div class="img">
+                              <video src="./images/insta.mp4" autoplay
+  muted
+  loop
+  playsinline></video>
+          <img src="./images/instagram.png" alt="">
+
+         </div>
+         <div class="aboutProject">
+          <a href="http://linkedin.com/in/anyia-favour-803842313" class="viewUtiv" target="_blank"><h2 class="vU"> View Instagram Login-Page Clone</h2></a>
+
+          <div class="languaages">
+            <p>Languages Used</p>
+            <li class="list">
+<ul class="lists"> &bull;  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg" alt=""> <p>HTML5</p>
+                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg" alt=""> <p>CSS3</p>
+              </ul>
+            </li>
+          </div>
+
+         </div>
+       </div>
+
+         <div class="project1">
+         <div class="img">
+          <video src="./images/Snapchat-com.mp4" autoplay
+  muted
+  loop
+  playsinline></video>
+          <img src="./images/snapChat.png" alt="">
+
+         </div>
+         <div class="aboutProject">
+          <a href="http://linkedin.com/in/anyia-favour-803842313" class="viewUtiv" target="_blank"><h2 class="vU"> View  Snapchat login-Page Clone</h2></a>
+
+          <div class="languaages">
+            <p>Languages Used</p>
+            <li class="list">
+              <ul class="lists"> &bull;  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg" alt=""> <p>HTML5</p>
+                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg" alt=""> <p>CSS3</p>
+              </ul>
+            </li>
+          </div>
+         </div>
+       </div>
+
+         <div class="project1">
+         <div class="img">
+          <video src="./images/snake.mp4" autoplay
+  muted
+  loop
+  playsinline></video>
+          <img src="./images/snake.png" alt="">
+
+         </div>
+         <div class="aboutProject">
+          <a href="./fiverrrr/fiver/transitions/snakeanimate/snake.html" class="viewUtiv" target="_blank"><h2 class="vU"> View LoginPage Design</h2></a>
+
+          <div class="languaages">
+            <p>Languages Used</p>
+            <li class="list">
+             <ul class="lists"> &bull;  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg" alt=""> <p>HTML5</p>
+                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg" alt=""> <p>CSS3</p>
+              </ul>
+            </li>
+          </div>
+         </div>
+       </div>
+
+         <div class="project1">
+         <div class="img">
+          <video src="./images/Document.mp4" autoplay
+  muted
+  loop
+  playsinline></video>
+          <img src="./images/rotate.png" alt="">
+
+         </div>
+         <div class="aboutProject">
+          <a href="./fiverrrr/fiver/transitions/rotate/rote.html" class="viewUtiv" target="_blank"><h2 class="vU"> View LoginPage Design</h2></a>
+
+          <div class="languaages">
+            <p>Languages Used</p>
+            <li class="list">
+<ul class="lists"> &bull;  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg" alt=""> <p>HTML5</p>
+                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg" alt=""> <p>CSS3</p>
+              </ul>
+            </li>
+          </div>
+         </div>
+       </div>
+
+
+         <div class="project1">
+         <div class="img">
+          <video src="./images/grid.mp4" autoplay
+  muted
+  loop
+  playsinline></video>
+          <img src="./images/pexel.png" alt="">
+
+         </div>
+         <div class="aboutProject">
+          <a href="http://linkedin.com/in/anyia-favour-803842313" class="viewUtiv" target="_blank"><h2 class="vU"> View Pexels webSite Clone</h2></a>
+
+          <div class="languaages">
+            <p>Languages Used</p>
+            <li class="list">
+<ul class="lists"> &bull;  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg" alt=""> <p>HTML5</p>
+                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg" alt=""> <p>CSS3</p>
+              </ul>
+            </li>
+          </div>
+         </div>
+       </div>
+
+         <div class="project1">
+         <div class="img">
+          <video src="./images/ios.mp4" autoplay
+  muted
+  loop
+  playsinline></video>
+          <img src="./images/ios.png" alt="">
+
+
+         </div>
+         <div class="aboutProject">
+          <a href="./fiverrrr/fiver/domCal/cal.html" class="viewUtiv" target="_blank"><h2 class="vU"> View IOS calculator Clone</h2></a>
+          <p class="kindly">Kindly view with a mobile stimualted extension</p>
+
+          <div class="languaages">
+
+            <p>Languages Used</p>
+            <li class="list">
+              <ul class="lists"> &bull;  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg" alt=""> <p>HTML5</p>
+                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg" alt=""> <p>CSS3</p>
+                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" alt="JavaScript" /> <p>JS</p>
+              </ul>
+            </li>
+          </div>
+         </div>
+       </div>
+
+       </div>
+    </div>
+
+
+    <div class="Contact_me" id="contact">
+<section class="hire-me-section" id="contact">
+  <h2>🚀 Let’s Build Your Next <br>Big Idea — Together!</h2>
+<p>I'm available for freelance gigs, internships, contracts, and remote roles. <br> From apps to full platforms, I bring ideas to life with clean code and creative energy. <br> Tell me your vision — I’ll make it real.</p>
+
+
+  <form class="contact-form" method="POST" action="https://formsubmit.co/anyiafavour15@gmail.com">
+  <input type="text" name="name" placeholder="Your Name" required />
+  <input type="email" name="email" placeholder="Your Email" required />
+  <textarea name="message" rows="5" placeholder="Project Details / Message" required></textarea>
+
+  <!-- Optional: redirect to a thank-you page -->
+  <!-- <input type="hidden" name="_next" value="thank-you.html" /> -->
+  
+  <!-- Optional: disable FormSubmit CAPTCHA -->
+  <input type="hidden" name="_captcha" value="false" />
+
+  <button type="submit">
+    <span>Submit  </span> <i class="emoji">💼</i>
+  </button>
+
+  <p id="msg" class="hidden">✅ Got it! I’ll reply shortly.</p>
+</form>
+
+
+  <div class="divider">— or reach out directly —</div>
+
+<div class="direct-contact">
+  <a href="mailto:anyiafavour15@gmail.com">
+    <span class="icon">📧</span> anyiafavour15@gmail.com
+  </a>
+  <a href="tel:07017527538">
+    <span class="icon">📞</span> 07017527538
+  </a>
+  <a href="https://www.google.com/maps/place/Lagos,+Nigeria" target="_blank">
+    <span class="icon">📍</span> Lagos, Nigeria
+  </a>
+</div>
+
+</section>
+
+
+    </div>
+
+    
+    </div>
+</body>
+<script src="portfolio.js" >
+</script>
+</html>
